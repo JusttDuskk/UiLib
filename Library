@@ -1,14 +1,11 @@
 -- Services
 local TweenService = game:GetService("TweenService")
 local RunService = game:GetService("RunService")
-local Players = game:GetService("Players")
 local UserInputService = game:GetService("UserInputService")
 local TextService = game:GetService("TextService")
 local HttpService = game:GetService("HttpService")
 local Debris = game:GetService("Debris")
-local LocalPlayer = Players.LocalPlayer
 
-local Mouse = LocalPlayer:GetMouse()
 local ConnectionBin = {}
 
 -- Var
